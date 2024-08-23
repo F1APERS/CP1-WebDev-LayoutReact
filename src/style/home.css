@@ -1,6 +1,4 @@
-*{
-    -border: 1px solid red;
-}
+
 
 .body-home {
     display: flex;
@@ -29,8 +27,8 @@
 }
 
 .body-home div button {
-    background-color: #333333;
-    color: white;
+    background-color: var(--color-grey);
+    color: var(--color-white);
     font-size: 20pt;
     width: 45%;
     border-radius: 100dvh;
@@ -56,24 +54,6 @@
     padding-inline: 2%;
 } 
 
-.body-card-social:nth-of-type(2) {
-    background-color: #F1C2B0;
-    margin-left: 5%;
-}
-
-.body-card-social:nth-of-type(3) {
-    background-color: #F9EB98;
-}
-
-.body-card-social:nth-of-type(4) {
-    background-color: #C0D9DD;
-}
-
-.body-card-social:nth-of-type(5) {
-    background-color: #6975E8;
-    margin-right: 5%;
-}
-
 .body-card-social .cabecalho-card-social {
     display: flex;
     justify-content: space-between;
@@ -81,7 +61,7 @@
 
 .body-card-social .cabecalho-card-social h1 {
     font-size: 60pt;
-    color: white;
+    color: var(--color-white);
 }
 
 .body-card-social .main-card-social h2 {

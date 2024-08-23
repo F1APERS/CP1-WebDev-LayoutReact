@@ -38,6 +38,14 @@
     margin-top: 20pt;
 }
 
+.body-home div button:hover {
+    cursor: pointer;
+    transform: scale(95%);
+    opacity: .93;
+
+}
+
+
 .body-card-social  {
     max-width: 19%;
     padding: 20px;

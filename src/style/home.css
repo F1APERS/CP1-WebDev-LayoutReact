@@ -1,0 +1,96 @@
+*{
+    -border: 1px solid red;
+}
+
+.body-home {
+    display: flex;
+    flex-direction: row;
+    width: 94vw;
+    margin-inline: 3vw;
+}
+
+.body-home img {
+    width: 50%;
+
+}
+
+.body-home div {
+    width: 50%;
+}
+
+.body-home div h1 {
+    font-size: 55pt;
+}
+
+.body-home div p {
+    font-size: 25pt;
+    padding-right: 20%;
+    padding-top: 20pt;
+}
+
+.body-home div button {
+    background-color: #333333;
+    color: white;
+    font-size: 20pt;
+    width: 45%;
+    border-radius: 100dvh;
+    padding: 3%;
+    margin-top: 20pt;
+}
+
+.body-card-social  {
+    max-width: 19%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-block: 5%;
+    padding-inline: 2%;
+} 
+
+.body-card-social:nth-of-type(2) {
+    background-color: #F1C2B0;
+    margin-left: 5%;
+}
+
+.body-card-social:nth-of-type(3) {
+    background-color: #F9EB98;
+}
+
+.body-card-social:nth-of-type(4) {
+    background-color: #C0D9DD;
+}
+
+.body-card-social:nth-of-type(5) {
+    background-color: #6975E8;
+    margin-right: 5%;
+}
+
+.body-card-social .cabecalho-card-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-card-social .cabecalho-card-social h1 {
+    font-size: 60pt;
+    color: white;
+}
+
+.body-card-social .main-card-social h2 {
+    font-size: 25pt;
+    padding-top: 3%;
+}
+
+.body-card-social .main-card-social p {
+    font-size: 15pt;
+    line-height: 23pt;
+    padding-top: 3%;
+    
+}
+
+
+.body-card-social .cabecalho-card-social img {
+    height: 100%;
+    width: 30pt;
+   
+}

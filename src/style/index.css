@@ -42,10 +42,23 @@ nav ul{
     display: flex;
     gap: 45px;
     font-size: 2rem;
+    text-decoration: none;
+    position: relative;
 }
 
 #root {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+
 }

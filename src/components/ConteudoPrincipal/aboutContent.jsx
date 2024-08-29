@@ -1,6 +1,7 @@
 import ImgCel1 from '../../assets/images/cel1.svg'
 import ImgCel2 from '../../assets/images/cel2.svg'
 
+
 function AboutContent() {
     return ( 
         <>
